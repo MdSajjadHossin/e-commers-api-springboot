@@ -22,4 +22,6 @@ public interface ProductsRepo extends JpaRepository<Products, Long> {
                                          @Param("minDiscount") Integer minDiscount,
                                          @Param("sort") String sort);
 
+    public List<Products> findByTitleContaining(String key);
+
 }

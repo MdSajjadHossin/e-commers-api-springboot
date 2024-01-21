@@ -142,4 +142,10 @@ public class ProductServiceImpl implements ProductService {
         Page<Products> filteredProducts = new PageImpl<>(pageContent, page, products.size());
         return filteredProducts;
     }
+
+    @Override
+    public List<Products> searchProduct(String key){
+        List<Products> products = productsRepo.findByTitleContaining(key);
+        return products;
+    }
 }
