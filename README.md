@@ -1,20 +1,20 @@
-# It is a simple E-Commers backend api using Spring boot.
+# It is a simple E-Commers backend API using Spring boot.
 
 
 
-### Technology used in this projects are
-Spring boot, MySql, Spring Security 6, Jwt Authentication, Spring Data Jpa and Lombok
+### Technology used in this project are
+Spring boot, MySql, Spring Security 6, Jwt Authentication, Spring Data JPA, and Lombok
 
-# The api is complete developed using dto pattern
+# The API is completely developed using dto pattern
 
-# The api offres compelete role base operation where user and admin can perform their indevidual operation
+# The API offers complete role base operation where the user and admin can perform their operation
 
-### The api contains:
-* Jwt Authenrication
+### The API contains:
+* Jwt Authentication
 * product base  functionality
 * Category base functionality
 * All required cart operation
-* All math mathmatical operation required for e-commers
-* review funtionality
+* All math mathematical operations required for e-commerce
+* review functionality
 * faq functionality
-* Coupon functionality showing  discoutnt on products
+* Coupon functionality showing  discounts on products
